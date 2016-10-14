@@ -1,10 +1,18 @@
+Usage
+=====
+
+To usage from public image automatically build from this repo in quay.io:
+
+```bash
+docker run --rm -it quay.io/widen/tensorflow-slim /bin/bash
+```
+
 Build 
 =====
 
 ```bash
 docker build -t widen/tensorflow .
 ```
-
 
 Run
 ===
